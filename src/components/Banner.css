@@ -1,0 +1,102 @@
+.Banner_1 {
+  background-size: cover;
+  display: flex;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 100%;
+  height: 500px;
+  flex-shrink: 0;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  z-index: 0;
+  overflow:hidden;
+}
+
+.custom-search-bar{
+  position: relative;
+  width: 40%;
+  height: 52px;
+  flex-shrink: 0;
+  margin-left:10%;
+  margin-top:158px;
+  display:flex;
+  border-radius:0;
+  color: #6B6969;
+  font-family: 'Raleway', sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.custom-button{
+  border-radius:0;
+  margin-top:158px;
+  flex-shrink:0;
+  border-width:2px;
+  font-size:24px;
+  font-family: 'Raleway', sans-serif;  
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+@media (max-width: 2000px) {
+  .Banner_1 {
+    height: 500px; /* Maintain 500px height in larger screens */
+  }
+  .custom-search-bar{
+    width: 40%;
+    height:52px;
+    font-size: 24px;
+    margin-left: 25%;
+  }
+  .custom-button{
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 1500px) {
+  .Banner_1 {
+    height: 400px; /* Reduce height to 400px when the screen width is less than 1200px */
+  }
+  .custom-search-bar{
+    margin-left: 20%;
+    width: 45%;
+    height:45px;
+    font-size:20px;
+  }
+  .custom-button{
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .Banner_1 {
+    height: 300px; /* Reduce height to 300px when the screen width is less than 768px */
+  }
+  .custom-search-bar{
+    margin-left: 15%;
+    width: 50%;
+    height: 40px;
+    font-size: 18px;
+  }
+  .custom-button{
+    font-size: 18px;
+  }
+}
+
+
+@media (max-width: 500px) {
+  .Banner_1 {
+    height: 300px; /* Reduce height to 300px when the screen width is less than 768px */
+  }
+  .custom-search-bar{
+    margin-left: 10%;
+    width: 55%;
+    height: 35px;
+    font-size: 16px;
+  }
+  .custom-button{
+    font-size: 16px;
+  }
+}
